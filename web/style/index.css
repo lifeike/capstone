@@ -1,0 +1,363 @@
+html body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: sans-serif;
+
+}
+/******************navbar********************/
+
+.navbar{
+    height: 50px;
+    width: 100%;
+     z-index: 9999;
+
+}
+/************************home*********************/
+* {
+    box-sizing: border-box;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width:85%;
+    position: relative;
+    margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+#home-sign-up {
+    max-width: 125px;
+    margin-top: 20%;
+
+    margin-left: 40%; 
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+
+}
+/**********************inventory*************************************/
+
+#addbutton
+{
+    max-width: 125px;
+    width: 100%;
+    margin-right:2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+#editformcat
+{
+    margin-left:  30%;
+    margin-right: 30%;
+    margin-top:  3%;
+    background:rgba(0,0,0,.1);
+    cursor:pointer;
+    height:100%;
+    z-index:10000;
+    padding: 5px;
+}
+
+#search{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+}
+
+.product-grid3
+{font-family:Roboto,sans-serif;
+ text-align:center;
+ position:relative;z-index:1
+}
+
+.product-grid3 .product-image3 img
+{width:100%; 
+ height:auto}
+
+.product-grid3 .product-content
+{z-index:-1;
+ padding:15px;
+ text-align:left}
+
+.product-grid3 .title
+{font-size:14px;
+ text-transform:capitalize;
+ margin:0 0 7px;
+ transition:all .3s ease 0s}
+
+.product-grid3 .title a
+{color:#414141}
+
+.product-grid3 .rating
+{padding:0;
+ margin:-22px 0 0;
+ list-style:none;
+ text-align:right;
+ display:block}
+
+.product-grid3 .rating li
+{color:#ffd200;
+ font-size:13px;
+ display:inline-block}
+
+
+@media only screen and (max-width:1200px){.product-grid3 .rating{margin:0}
+}
+@media only screen and (max-width:990px){.product-grid3{margin-bottom:30px}
+                                         .product-grid3 .rating{margin:-22px 0 0}
+}
+@media only screen and (max-width:359px){.product-grid3 .rating{margin:0}
+}
+/*************************category******************/
+#body-main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+button #add,#edit{
+    max-width: 125px;
+    width: 100%;
+    z-index:10000;
+}
+#addform{
+    margin: 5%;
+    z-index:10000;
+}
+#addbtncatagory{
+    max-width: 125px;
+    width: 100%;
+    margin-right:2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+
+}
+#heading{
+    margin-left: 1%;
+
+    font-size: 35px;
+
+}
+#editform
+{
+    margin-left:  35%;
+    margin-right: 35%;
+    margin-top:  3%;
+    background:rgba(0,0,0,.1);
+    cursor:pointer;
+    height:100%;
+    z-index:10000;
+    padding: 5px;
+}
+#save{
+    max-width: 400px;
+    width: 100%;
+}
+
+/*************************footer************/
+.bg-dark{
+    padding:2%;
+}
+.page-footer{
+    font-size: 12px;
+}
+#copy{
+    text-align: center;
+    font-size: 8px;
+}
+/*********************cart**************/
+#billbutton{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+#imgcart
+{
+    width:60px; 
+    height:60px;
+}
+#imgcart:hover
+{
+    width:200px; 
+    height:200px;
+}
+/********************shipping********************/
+.bs{
+    margin: 20px;        
+}
+#shippingform{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#footer{
+    margin: 0%;
+}
+/*************orderconf**************/
+#orderbutton{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+#profileform{
+    margin-left: 2%;
+    margin-right: 5%;
+
+}
+
+#md-form{
+    text-align: left;
+}
+
+#msgbutton{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+/*******************home*************************/
+.product-grid3 .product-image3 #img
+{
+    width:60%; 
+    height:auto;
+}
+.product-grid3 
+{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: lightgray;
+    padding: 2%;
+}
+.product-grid3 .product-image3 #img:hover
+{
+    width:61%; 
+    height:auto}
+#wel
+{
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 50px;
+    background-color: #606060;
+    border-radius: 50px 20px;
+    animation-name: shop;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes shop {
+    0%   {background-color: #606060;}
+    10%  {background-color: #d1c4e9;}
+    20%  {background-color: #e8f5e9;}
+    30%  {background-color: #dcedc8;}
+    40%  {background-color: #bcaaa4;}
+    50%  {background-color: #e0e0e0;}
+    60%  {background-color: #78909c;}
+    70%  {background-color: #8d6e63;}
+    80%  {background-color: #f3e5f5;}
+    90% {background-color: #e0f7fa;}
+    100% {background-color: #ede7f6;}
+}
+
+#shop{
+    float: right;
+    color: black;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+#shop:hover{
+
+    color: blue;
+    
+}
+
+.error-message {
+  padding: 5px;
+  border-radius: 3px;
+  background: #dc3545;
+  position: fixed;
+  width: 250px;
+  left: calc(50vw - 100px);
+  bottom: 10px;
+  color: #eee;
+}
+/**************************customer***************/
+#custform{
+      margin-left: 2%;
+    margin-right: 2%;
+}
+
+

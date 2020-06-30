@@ -1,0 +1,210 @@
+#title{
+    color: black;
+    margin-top: -20px;
+}
+body {
+  background: #efefef;
+  font-size: 80.5%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #B6B6B6;
+}
+body section {
+  background: white;
+  border-top: 15px solid #313A3D;
+  text-align: center;
+  padding: 50px 0 110px;
+  width: 100%;
+ }
+body section h1 {
+  margin-bottom: 40px;
+  font-size: 4em;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+form {
+  width: 58.3333333333%;
+  margin: 0 auto;
+  
+}
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+form .field label {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #313A3D;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field label + span {
+  font-family: 'SSStandard';
+  opacity: 0;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 7%;
+  font-size: 1.5em;
+  text-shadow: 1px 2px 0 #cd6302;
+ 
+}
+/*////////////////////passsword///////////////////////////*/
+form .field input[type="password"], 
+form .field password {
+  border: none;
+  background: #E8E9EA;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313A3D;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+
+}
+form .field input[type="password"]:focus + label, form .field input[type="password"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #313A3D;
+  color: #ffffff;
+}
+
+
+/************************email*******/
+
+form .field input[type="email"] {
+  border: none;
+  background: #E8E9EA;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313A3D;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+
+}
+
+form .field input[type="email"]:focus + label, form .field input[type="email"].focused + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #313A3D;
+  color: #ffffff;
+}
+form .field input[type="email"].focused + label,
+form .field textarea.focused + label {
+  color: #313A3D;
+}
+/*********************************************text**************/
+form .field input[type="text"], 
+form .field password {
+  border: none;
+  background: #E8E9EA;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313A3D;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+
+}
+
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #313A3D;
+  color: #ffffff;
+}
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+  color: #313A3D;
+}
+
+/*******************select***************************/
+form .field select, 
+form .field select {
+  border: none;
+  background: #E8E9EA;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313A3D;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+
+}
+
+
+form .field select:focus + label, form .field select.focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #313A3D;
+  color: #ffffff;
+}
+form .field select.focused + label,
+form .field textarea.focused + label {
+  color: #bbb;}
+
+
+
+
+
+
+form .field:hover label {
+  width: 18%;
+  background: #313A3D;
+  color: white;
+}
+form input[type="submit"] {
+  background: #313A3D;
+  color: #B6B6B6;
+  -webkit-appearance: none;
+  border: none;
+
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  
+}
+form input[type="submit"]:hover {
+
+  background: #414141;
+  color: white;
+}
+form input[type="submit"]:focus {
+  outline: none;
+  background: #313A3D;
+}
+
+.error-message {
+  padding: 5px;
+  border-radius: 3px;
+  background: #dc3545;
+  position: fixed;
+  width: 250px;
+  left: calc(50vw - 100px);
+  bottom: 10px;
+  color: #eee;
+}

@@ -1,0 +1,38 @@
+.row button
+{
+    width: 275px;
+    height: 275px;
+
+
+
+}
+body{
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 5%;
+}
+a{
+    color: whitesmoke;
+    font-size: 25px;
+
+}
+
+
+#padd
+{
+padding: 2px;
+}
+
+.error-message {
+  padding: 5px;
+  border-radius: 3px;
+  background: #dc3545;
+  position: fixed;
+  width: 250px;
+  left: calc(50vw - 100px);
+  bottom: 10px;
+  color: #eee;
+}
+
+
+

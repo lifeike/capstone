@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>C&C - Password Reset </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    </head>
+    <body>
+        <div id="mailsub" class="notification" align="center" style="border-style: solid; border-width: 0.5;border-color: graytext; margin:6%;padding: 5px;">
+            <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                <tr><td align="center">
+                        <div style="line-height: 44px;">
+                            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 40px; color: #57697e;">
+                                Password Reset
+                            </span>
+                        </div>
+                    </td></tr>
+                <tr><td align="center">
+                        <div style="line-height: 30px;" style="border-style: solid">
+                            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #57697e;">
+                                Hi {{firstname}},
+                                <br>
+                                Your Username is {{email}},
+                                <br>
+                                Please click on this link to reset your password,<br>
+                                <a href="{{link}}">{{link}}</a>  <br>.
+                                Thanks & Regards
+                                <br>
+                                C&C Team
+                            </span>
+                        </div>
+                    </td></tr>
+            </table>		
+            <br><br><br>
+            <center>
+                <strong>Cutey N' Coolty </strong>
+            </center>
+        </div>
+    </body>
+</html>
